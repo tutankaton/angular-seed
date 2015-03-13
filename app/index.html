@@ -9,24 +9,90 @@
   <title>My AngularJS App</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="bower_components/foundation/js/foundation.min.js"></script>
   <link rel="stylesheet" href="bower_components/html5-boilerplate/css/normalize.css">
   <link rel="stylesheet" href="bower_components/html5-boilerplate/css/main.css">
-  <link rel="stylesheet" href="app.css">
+  
+  <link rel="stylesheet" href="stylesheets/app.css" />
   <script src="bower_components/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js"></script>
 </head>
 <body>
-  <ul class="menu">
-    <li><a href="#/view1">view1</a></li>
-    <li><a href="#/view2">view2</a></li>
-  </ul>
+
+
 
   <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
 
-  <div ng-view></div>
+  <div class="left-menu">
+    <div class="left-menu-logo-telefonica"></div>
+    <div class="profile-photo"></div>
+    <div class="span-user-name">MATIGONZ</div>
+    <div class="left-menu-icons">
+      <div class="left-menu-icon1"></div>
+      <div class="left-menu-icon2"></div>
+      <div class="left-menu-icon3"></div>
+    </div>
+    <div class="left-menu-moviblock">
+      <div class="left-menu-moviblock-left"><div class="moviblock-icon"></div></div>
+      <div class="left-menu-moviblock-right">
+        <div class="moviblock-right-title">Operaciones e Indicadores Móviles</div>
+        <div class="moviblock-right-link">Por Cabecera</div>
+        <div class="moviblock-right-link">Productos Foco por Canal</div>
+        <div class="moviblock-right-link">Recargas</div>
+        <div class="moviblock-right-link">Parque y Market Share</div>
+        <div class="moviblock-right-link">Inmovilizados Ventas</div>
+        <div class="moviblock-right-link">Sitios</div>
+        <div class="moviblock-right-link">Dinámica Libre</div>
+      </div>
+    </div>
 
-  <div>Angular seed app: v<span app-version></span></div>
+    <div class="left-menu-fijablock">
+      <div class="left-menu-fijablock-left"><div class="fijablock-icon"></div></div>
+      <div class="left-menu-fijablock-right">
+        <div class="fijablock-right-title">Operaciones e Indicadores Fija</div>
+        <div class="fijablock-right-link">Por Cabecera</div>
+        <div class="fijablock-right-link">Productos Foco por Canal</div>
+        <div class="fijablock-right-link">Parque y Market Share</div>
+        <div class="fijablock-right-link">Averías pendientes</div>
+        <div class="fijablock-right-link">Dinámica Libre</div>
+      </div>
+    </div>
+
+    <div class="left-menu-fijablock">
+      <div class="left-menu-fijablock-left"></div>
+      <div class="left-menu-fijablock-right">
+        <div class="fijablock-right-title">Otros</div>
+        <div class="fijablock-right-link">Información TUPs</div>
+        <div class="fijablock-right-link">Presupuesto y gasto de viajes</div>
+        <div class="fijablock-right-link">Aclaraciones</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="right-page">
+  <div class="right-top-bar">
+    <div class="hamburger-top-bar"></div>
+    <div class="title-top-bar">Región Patagonia</div>
+    <div class="right-top-bar-right">
+      <div class="maximize-icon-top-bar"></div>
+      <div class="notifications-icon-top-bar">
+        <div class="notifications-count-icon">3</div>
+      </div>
+      <div class="mails-icon-top-bar">
+        <div class="mails-count-icon">5</div>
+      </div>
+        
+      
+    </div>
+  </div>
+    
+    <div class="main-page" ng-view>
+      
+    </div>
+
+  </div>
 
   <!-- In production use:
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
@@ -34,10 +100,19 @@
   <script src="bower_components/angular/angular.js"></script>
   <script src="bower_components/angular-route/angular-route.js"></script>
   <script src="app.js"></script>
+
+  <!--Controllers-->
+  <script src="Controllers/evolutivoCtrl.js"></script>
+
+  <!--Services-->
+  <script src="Services/evolutivoSrv.js"></script>
+
   <script src="view1/view1.js"></script>
   <script src="view2/view2.js"></script>
+
   <script src="components/version/version.js"></script>
   <script src="components/version/version-directive.js"></script>
   <script src="components/version/interpolate-filter.js"></script>
 </body>
 </html>
+

@@ -1,0 +1,322 @@
+@font-face {
+    font-family: "Telefonica";
+    src: url("TelefonicaText.ttf") format("opentype");
+}
+
+.right-page{
+	position: static;
+  margin-left: 200px;
+  height: 100%;
+}
+.main-page{
+-webkit-font-smoothing: antialiased;
+	font-family: "Telefonica";
+	color: #1471B7;
+padding: 15px;
+	background-color: #ECECEC;
+	  height: 1350px;
+  
+}
+.right-top-bar{
+	font-family: "Telefonica";
+	color: #1471B7;
+	background-color: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding-left: 200px;
+	z-index: 999;
+	width: 100%;
+	height: 50px;
+}
+.right-top-bar-right{
+	
+}
+.mails-count-icon{
+	font-weight: 900;
+  	color: white;
+  	width: 20px;
+  	height: 20px;
+  	background-color: #FFB516;
+  	border-radius: 50%;
+  	text-align: center;
+  	margin-left: 29px;
+  	margin-top: 22px;
+  	font-size: 14px;
+}
+.notifications-count-icon{
+	font-weight: 900;
+  	color: white;
+  	width: 20px;
+  	height: 20px;
+  	background-color: #EC2C21;
+  	border-radius: 50%;
+  	text-align: center;
+  	margin-left: 29px;
+  	margin-top: 22px;
+  	font-size: 14px;
+}
+
+.hamburger-top-bar{
+	width: 50px;
+  	height: 50px;
+  	float: left;
+	background-size: 100%;
+	background-image: url("icons/hamburguer.png");
+}
+.title-top-bar{
+  	float: left;
+	padding-top: 10px;
+  	font-size: 20px;
+}
+.mails-icon-top-bar{
+	width: 50px;
+  	height: 50px;
+  	float: right;
+	background-size: 100%;
+	background-image: url("icons/mails.png");
+}
+.notifications-icon-top-bar{
+	width: 50px;
+  	height: 50px;
+  	float: right;
+	background-size: 100%;
+	background-image: url("icons/notifications.png");
+}
+.maximize-icon-top-bar{
+	width: 50px;
+  	height: 50px;
+  	float: right;
+	background-size: 100%;
+	background-image: url("icons/maximize.png");
+}
+
+.left-menu{
+
+  z-index: 2000;
+	position: fixed;
+	font-family: "Telefonica";
+	color: white;
+	float: left;
+	width: 200px;
+  height: 100%;
+  background-color: #35A8E1;
+}
+.profile-photo{
+	margin-top: 10px;
+  width: 120px;
+  margin-left: 40px;
+  height: 120px;
+  border-radius: 20%;
+    background-size: 100%;
+	background-image: url("images/default_avatar_large.png");
+	
+}
+.span-user-name{
+	  
+  margin-top: 10px;
+  text-align: center;
+}
+.left-menu-logo-telefonica{
+	  height: 50px;
+  background-color: #1471B7;
+  background-image: url("images/logo tasa-01.png");
+  background-size: 75%;
+  background-position: 25px -25px;
+  background-repeat: no-repeat;
+}
+.left-menu-icons{
+	margin-top: 10px;
+	 width: 100%;
+  	height: 50px;
+}
+.left-menu-icon1{
+	width: 50px;
+  	height: 50px;
+  	float: left;
+  	margin-left:5px;
+	background-size: 100%;
+	background-image: url("icons/appbar.acorn.png");
+}
+.left-menu-icon2{
+	width: 50px;
+  	height: 50px;
+  	margin-left:20px;
+  	margin-right:20px;
+  	float: left;
+	background-size: 100%;
+	background-image: url("icons/appbar.calendar.year.png");
+}
+.left-menu-icon3{
+	width: 50px;
+  	height: 50px;
+  	float: left;
+	background-size: 100%;
+	background-image: url("icons/appbar.city.png");
+}
+.left-menu-moviblock{
+	-webkit-font-smoothing: antialiased;
+  	font-size: 10px;
+	margin-top:10px;
+	width: 100%;
+  	height: 145px;
+}
+.left-menu-moviblock-left{
+
+	width: 40px;
+  	height: 145px;
+  	float: left;
+}
+.moviblock-icon{
+	float: right;
+  	width: 32px;
+  	height: 32px;
+  	background-size: 100%;
+  	background-image: url("icons/appbar.simcard.png");
+}
+.left-menu-moviblock-right{
+	padding-left: 42px;
+}
+
+.left-menu-fijablock{
+	-webkit-font-smoothing: antialiased;
+  	font-size: 10px;
+	width: 100%;
+  	  height: 115px;
+}
+.left-menu-fijablock-left{
+	width: 40px;
+  	  height: 115px;
+  	float: left;
+}
+.fijablock-icon{
+	float: right;
+  	width: 32px;
+  	height: 32px;
+  	background-size: 100%;
+  	background-image: url("icons/appbar.phone.png");
+}
+.left-menu-fijablock-right{
+	float: left;
+	width:160px;
+	  height: 115px;
+}
+
+.moviblock-right-title{
+	padding-top: 7px;
+  	padding-bottom: 7px;
+}
+
+.moviblock-right-link{
+	cursor:pointer;
+}
+.fijablock-right-title{
+	padding-top: 7px;
+  	padding-bottom: 7px;
+}
+
+.fijablock-right-link{
+	cursor:pointer;
+}
+
+
+
+.main-title{
+  font-size: 20px;
+  padding-top: 40px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+	-webkit-font-smoothing: antialiased;
+	font-family: "Telefonica";
+	color: #1471B7;
+}
+.main-sub-title{
+	font-size: 12px;
+  padding-left: 10px;
+}
+.main-content{
+	width:100%;
+}
+.container50{
+	float: left;
+  margin: 1%;
+  width: 48%;
+  height: 200px;
+  background-color: #35A8E1;
+}
+.container25{
+float: left;
+  margin: 1%;
+  width: 23%;
+  height: 200px;
+  background-color: #35A8E1;
+	
+}
+.container20{
+	  background-color: #1471B7;
+  width: 23%;
+  height: 100px;
+  margin: 1%;
+  float: left;
+}
+.container20-right{
+height: 60px;
+  width: 50%;
+  padding: 6px;
+  padding-left: 7%;
+  color: white;
+  height: 60px;
+  float: right;
+  border-left: 1px solid rgba(53, 168, 255, 0.5);
+  margin-top: 20px;
+}
+.container20-icon{
+	float: left;
+  width: 76px;
+  height: 76px;
+  background-size: 100%;
+  margin-top: 5%;
+  margin-left: 10%;
+}
+.icon-averias{
+	background-image: url("icons/appbar.tools.png");
+}
+.icon-sitios{
+	background-image: url("icons/appbar.map.gps.png");
+}
+.icon-dinamica{
+	background-image: url("icons/appbar.inbox.in.png");
+}
+.icon-inmo{
+	background-image: url("icons/appbar.timer.alert.png");
+}
+.icon-resumen{
+	background-image: url("icons/appbar.projector.screen.png");
+}
+.icon-oferta{
+	background-image: url("icons/appbar.tag.png");
+}
+.icon-atp{
+	background-image: url("icons/appbar.customerservice.png");
+}
+.icon-intcomp{
+	background-image: url("icons/appbar.clipboard.variant.edit.png");
+}
+.icon-capilaridad{
+	background-image: url("icons/appbar.transit.connection.png");
+}
+.icon-poblacion{
+	background-image: url("icons/appbar.group.png");
+}
+.icon-churn{
+	background-image: url("icons/appbar.magnify.browse.png");
+}
+.icon-arpu{
+	background-image: url("icons/appbar.currency.dollar.png");
+}
+.block1{
+    width: 500px;
+  float: left;
+  height: 200px;
+  margin: 8px;
+}
