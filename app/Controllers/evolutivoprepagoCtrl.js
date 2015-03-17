@@ -1,11 +1,11 @@
 'use strict';
-angular.module('evolutivoCrl', [])
+angular.module('evolutivoprepagoCrl', [])
 
 
-.controller('evolutivoCtrl',  [function() {
+.controller('evolutivoprepagoCtrl',  [function() {
 
 setTimeout(function(){ 
-	$('#containerRR').highcharts({
+	$('#containerRRRRR').highcharts({
 	        chart: {
 	            type: 'column',
 	            height: 140,
@@ -91,11 +91,11 @@ setTimeout(function(){
 		    },
 	        series: [{
 	            name: 'Equipo',
-	            data: [{y: 65000, color:'#D3D2D2'}, {y: 60000, color:'#D3D2D2'}, {y: 68000, color:'#D3D2D2'}, {y: 75000, color:'#D3D2D2'}, {y: 76000, color:'#D3D2D2'}, {y: 77000, color:'#D3D2D2'}, {y: 75000, color:'#D3D2D2'}, {y: 68000, color:'#D3D2D2'}, {y: 60000, color:'#D3D2D2'}, {y: 65000, color:'#D3D2D2'}, {y: 70000, color:'#D3D2D2'}, {y: 75000, color:'#D3D2D2'}]
+	            data: [{y: 95000, color:'#D3D2D2'}, {y: 90000, color:'#D3D2D2'}, {y: 98000, color:'#D3D2D2'}, {y: 125000, color:'#D3D2D2'}, {y: 146000, color:'#D3D2D2'}, {y: 177000, color:'#D3D2D2'}, {y: 105000, color:'#D3D2D2'}, {y: 98000, color:'#D3D2D2'}, {y: 90000, color:'#D3D2D2'}, {y: 95000, color:'#D3D2D2'}, {y: 100000, color:'#D3D2D2'}, {y: 105000, color:'#D3D2D2'}]
 
 	        }, {
 	            name: 'Repro',
-	            data: [{y: 80000, color:'#FFFFFE'}, {y: 75000, color:'#FFFFFE'}, {y: 95000, color:'#FFFFFE'}, {y: 110000, color:'#FFFFFE'}, {y: 100000, color:'#FFFFFE'}, {y: 110000, color:'#FFFFFE'}, {y: 115000, color:'#FFFFFE'}, {y: 110000, color:'#FFFFFE'}, {y: 115000, color:'#FFFFFE'}, {y:  95000, color:'#FFFFFE'}, {y: 90000, color:'#FFFFFE'}, {y: 102000, color:'#FFFFFE'}]
+	            data: [{y: 80000, color:'#FFFFFE'}, {y: 75000, color:'#FFFFFE'}, {y: 95000, color:'#FFFFFE'}, {y: 110000, color:'#FFFFFE'}, {y: 130000, color:'#FFFFFE'}, {y: 156000, color:'#FFFFFE'}, {y: 115000, color:'#FFFFFE'}, {y: 110000, color:'#FFFFFE'}, {y: 115000, color:'#FFFFFE'}, {y:  95000, color:'#FFFFFE'}, {y: 90000, color:'#FFFFFE'}, {y: 102000, color:'#FFFFFE'}]
 
 	        }]
 	    });

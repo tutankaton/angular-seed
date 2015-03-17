@@ -9173,7 +9173,7 @@ th.hide-for-touch {
 .main-page {
   -webkit-font-smoothing: antialiased;
   font-family: "Telefonica";
-  color: #1471B7;
+  color: #888888;
   padding: 15px;
   background-color: #ECECEC;
   height: 1350px;
@@ -9266,6 +9266,7 @@ th.hide-for-touch {
 
 /* line 94, ../scss/_main.scss */
 .left-menu {
+  top: 0;
   z-index: 2000;
   position: fixed;
   font-family: "Telefonica";
@@ -9561,4 +9562,286 @@ th.hide-for-touch {
   float: left;
   height: 200px;
   margin: 8px;
+}
+
+/* line 323, ../scss/_main.scss */
+.block2 {
+  width: 242px;
+  margin-right: 8px;
+  float: left;
+  height: 200px;
+  background-color: wheat;
+}
+
+/* line 330, ../scss/_main.scss */
+.block3 {
+  width: 242px;
+  margin-left: 8px;
+  float: left;
+  height: 200px;
+}
+
+/* line 339, ../scss/_main.scss */
+.evolutivoleft {
+  width: 120px;
+  background-color: white;
+  position: absolute;
+  height: 200px;
+  font-size: 14px;
+  border-top: 1px solid rgba(200, 200, 200, 0.8);
+  border-bottom: 1px solid rgba(200, 200, 200, 0.8);
+  border-left: 1px solid rgba(200, 200, 200, 0.8);
+}
+
+/* line 349, ../scss/_main.scss */
+.evolutivolefticonaltas {
+  width: 32px;
+  height: 32px;
+  background-size: 100%;
+  background-image: url("icons/appbar.group.add2.png");
+  float: left;
+}
+
+/* line 356, ../scss/_main.scss */
+.evolutivolefttitle {
+  width: 87px;
+  height: 32px;
+  float: right;
+  line-height: 40px;
+}
+
+/* line 362, ../scss/_main.scss */
+.evolutivoleftpais {
+  font-size: 12px;
+  width: 120px;
+  margin-top: 32px;
+  height: 84px;
+  padding: 6px;
+  padding-top: 12px;
+}
+
+/* line 370, ../scss/_main.scss */
+.evolutivoleftequipoblock {
+  border-top: 1px solid rgba(200, 200, 200, 0.9);
+}
+
+/* line 373, ../scss/_main.scss */
+.evolutivoleftequipo {
+  float: right;
+}
+
+/* line 376, ../scss/_main.scss */
+.evolutivoleftregion {
+  font-size: 12px;
+  padding: 6px;
+  padding-top: 12px;
+}
+
+/* line 382, ../scss/_main.scss */
+.evolutivoright {
+  width: 380px;
+  height: 200px;
+  position: relative;
+  left: 120px;
+  background-color: #35A8E1;
+  color: white;
+  font-size: 12px;
+}
+
+/* line 391, ../scss/_main.scss */
+.evolutivorighticoncontent {
+  height: 24px;
+  width: 100%;
+}
+
+/* line 395, ../scss/_main.scss */
+.evolutivorighticonexpand {
+  width: 24px;
+  height: 24px;
+  background-size: 100%;
+  background-image: url("icons/appbar.arrow.expand.png");
+  float: right;
+}
+
+/* line 402, ../scss/_main.scss */
+.evolutivorightgraphcontent {
+  height: 140px;
+  width: 100%;
+}
+
+/* line 406, ../scss/_main.scss */
+.evolutivorightinfocontent {
+  height: 36px;
+  font-size: 11px;
+  width: 100%;
+}
+
+/* line 411, ../scss/_main.scss */
+.evorightinfoblock {
+  width: 54px;
+  text-align: center;
+  height: 36px;
+  float: left;
+  line-height: 16px;
+}
+
+/* line 424, ../scss/_main.scss */
+.evorightinfoblockborder {
+  width: 54px;
+  text-align: center;
+  height: 32px;
+  float: left;
+  line-height: 16px;
+  border-left: 1px solid;
+  border-color: rgba(200, 200, 200, 0.7);
+}
+
+/* line 433, ../scss/_main.scss */
+.chartevolutivo {
+  color: #868686;
+}
+
+/* line 436, ../scss/_main.scss */
+.tooltip {
+  backgroud-color: #565656;
+  border-radius: 5px;
+  font-size: 9px;
+}
+
+/* line 441, ../scss/_main.scss */
+.tooltipfloatright {
+  text-aling: right;
+  float: right;
+}
+
+/* line 445, ../scss/_main.scss */
+.tooltipfloatleft {
+  tooltipfloatleftext-aling: left;
+  float: left;
+}
+
+/* line 449, ../scss/_main.scss */
+.tooltipblock {
+  width: 60px;
+}
+
+/* line 452, ../scss/_main.scss */
+.cakeinfoexpandologo {
+  margin-right: 3px;
+  width: 24px;
+  height: 24px;
+  background-size: 100%;
+  background-image: url("icons/appbar.arrow.expand2.png");
+  float: right;
+}
+
+/* line 460, ../scss/_main.scss */
+.cakeinfologo {
+  margin-left: 4px;
+  width: 24px;
+  height: 24px;
+  background-size: 100%;
+  background-image: url("icons/appbar.pie.png");
+  float: left;
+}
+
+/* line 468, ../scss/_main.scss */
+.cakegraph {
+  width: 100%;
+  height: 145px;
+  background-color: #35A8E1;
+}
+
+/* line 473, ../scss/_main.scss */
+.cakeinfo {
+  border-right: 1px solid rgba(200, 200, 200, 0.8);
+  border-bottom: 1px solid rgba(200, 200, 200, 0.8);
+  border-left: 1px solid rgba(200, 200, 200, 0.8);
+  width: 100%;
+  height: 55px;
+  background-color: #FFFFFF;
+}
+
+/* line 481, ../scss/_main.scss */
+.cakeinfoup {
+  width: 100%;
+  height: 28px;
+}
+
+/* line 485, ../scss/_main.scss */
+.cakeinfotext {
+  float: left;
+}
+
+/* line 488, ../scss/_main.scss */
+.cakeinfodown {
+  line-height: 24px;
+  width: 220px;
+  margin-left: 11px;
+  height: 27px;
+  border-top: 1px solid rgba(170, 170, 170, 0.7);
+}
+
+/* line 495, ../scss/_main.scss */
+.cakeinfomovistar {
+  float: left;
+  font-size: 14px;
+}
+
+/* line 499, ../scss/_main.scss */
+.cakeinfomovistarMS {
+  float: right;
+  font-size: 14px;
+}
+
+/* line 503, ../scss/_main.scss */
+.evolutivoprepagofirst {
+  margin-top: 15px;
+}
+
+/* line 506, ../scss/_main.scss */
+.cakeevolup {
+  width: 100%;
+  height: 30px;
+  color: white;
+  line-height: 32px;
+  font-size: 12px;
+  background-color: #35A8E1;
+}
+
+/* line 514, ../scss/_main.scss */
+.logorecargas {
+  width: 32px;
+  height: 32px;
+  background-size: 100%;
+  background-image: url("icons/appbar.alien.png");
+  float: left;
+}
+
+/* line 521, ../scss/_main.scss */
+.regargastitle {
+  float: left;
+}
+
+/* line 524, ../scss/_main.scss */
+.cakeevolcenter {
+  width: 100%;
+  height: 130px;
+  background-color: #35A8E1;
+}
+
+/* line 529, ../scss/_main.scss */
+.cakeevoldown {
+  padding-top: 10px;
+  width: 100%;
+  height: 40px;
+  background-color: #35A8E1;
+}
+
+/* line 535, ../scss/_main.scss */
+.cakeevoldowncenter {
+  width: 202px;
+  margin-left: 20px;
+  color: white;
+  font-size: 12px;
 }

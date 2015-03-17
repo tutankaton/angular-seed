@@ -11,7 +11,7 @@
 .main-page{
 -webkit-font-smoothing: antialiased;
 	font-family: "Telefonica";
-	color: #1471B7;
+	color: #888888;
 padding: 15px;
 	background-color: #ECECEC;
 	  height: 1350px;
@@ -92,7 +92,7 @@ padding: 15px;
 }
 
 .left-menu{
-
+  top: 0;
   z-index: 2000;
 	position: fixed;
 	font-family: "Telefonica";
@@ -319,4 +319,222 @@ height: 60px;
   float: left;
   height: 200px;
   margin: 8px;
+}
+.block2{
+  width: 242px;
+  margin-right: 8px;
+  float: left;
+  height: 200px;
+  background-color: wheat;
+}
+.block3{
+  width: 242px;
+  margin-left: 8px;
+  float: left;
+  height: 200px;
+}
+
+
+//evolutivo
+.evolutivoleft{
+  width: 120px;
+  background-color: white;
+  position: absolute;
+  height: 200px;
+  font-size: 14px;
+    border-top: 1px solid rgba(200,200,200,0.8);
+   border-bottom: 1px solid rgba(200,200,200,0.8);
+   border-left : 1px solid rgba(200,200,200,0.8);
+}
+.evolutivolefticonaltas{
+  width: 32px;
+  height: 32px;
+  background-size: 100%;
+  background-image: url("icons/appbar.group.add2.png");
+  float: left;
+}
+.evolutivolefttitle{
+    width: 87px;
+  height: 32px;
+  float: right;
+  line-height: 40px;
+}
+.evolutivoleftpais{
+  font-size: 12px;
+  width: 120px;
+  margin-top: 32px;
+  height: 84px;
+    padding: 6px;
+    padding-top: 12px;
+}
+.evolutivoleftequipoblock{
+    border-top: 1px solid rgba(200,200,200,0.9);
+}
+.evolutivoleftequipo{
+  float: right;
+}
+.evolutivoleftregion{
+font-size: 12px;
+  padding: 6px;
+    padding-top: 12px;
+}
+
+.evolutivoright{
+  width: 380px;
+  height: 200px;
+  position: relative;
+  left: 120px;
+  background-color: #35A8E1;
+  color: white;
+  font-size: 12px;
+}
+.evolutivorighticoncontent{
+  height: 24px;
+  width: 100%;
+}
+.evolutivorighticonexpand{
+  width: 24px;
+    height: 24px;
+    background-size: 100%;
+    background-image: url("icons/appbar.arrow.expand.png");
+    float: right;
+}
+.evolutivorightgraphcontent{
+  height: 140px;
+  width: 100%;
+}
+.evolutivorightinfocontent{
+  height: 36px;
+  font-size: 11px;
+  width: 100%;
+}
+.evorightinfoblock{
+    width: 54px;
+  text-align: center;
+  height: 36px;
+  float: left;
+  line-height: 16px;
+}
+.evorightinfocontent1{
+  
+}
+.evorightinfocontent2{
+  
+}
+.evorightinfoblockborder{
+    width: 54px;
+  text-align: center;
+  height: 32px;
+  float: left;
+  line-height: 16px;
+  border-left: 1px solid;
+  border-color: rgba(200, 200, 200, 0.7);
+}
+.chartevolutivo{
+  color:#868686;
+}
+.tooltip{
+  backgroud-color: #565656;
+  border-radius: 5px;
+  font-size: 9px;
+}
+.tooltipfloatright{
+  text-aling:right;
+  float:right;
+}
+.tooltipfloatleft{
+tooltipfloatleftext-aling:left;
+  float:left;
+}
+.tooltipblock{
+ width:60px;
+}
+.cakeinfoexpandologo{
+margin-right: 3px;
+  width: 24px;
+    height: 24px;
+    background-size: 100%;
+    background-image: url("icons/appbar.arrow.expand2.png");
+    float: right;
+}
+.cakeinfologo{
+margin-left: 4px;
+  width: 24px;
+    height: 24px;
+    background-size: 100%;
+    background-image: url("icons/appbar.pie.png");
+    float: left;
+}
+.cakegraph{
+  width: 100%;
+  height: 145px;
+  background-color: #35A8E1;
+}
+.cakeinfo{
+border-right: 1px solid rgba(200,200,200,0.8);
+   border-bottom: 1px solid rgba(200,200,200,0.8);
+   border-left : 1px solid rgba(200,200,200,0.8);
+  width: 100%;
+  height: 55px;
+  background-color: #FFFFFF;
+}
+.cakeinfoup{
+    width: 100%;
+  height: 28px;
+}
+.cakeinfotext{
+    float: left;
+}
+.cakeinfodown{
+line-height: 24px;
+    width: 220px;
+  margin-left: 11px;
+  height: 27px;
+  border-top: 1px solid rgba(170,170,170,0.7);
+}
+.cakeinfomovistar{
+  float:left;
+  font-size:14px;
+}
+.cakeinfomovistarMS{
+  float:right;
+  font-size:14px;
+}
+.evolutivoprepagofirst{
+    margin-top: 15px;
+}
+.cakeevolup{
+  width: 100%;
+  height: 30px;
+  color: white;
+  line-height: 32px;
+  font-size: 12px;
+  background-color: #35A8E1;
+}
+.logorecargas{
+  width: 32px;
+    height: 32px;
+    background-size: 100%;
+    background-image: url("icons/appbar.alien.png");
+    float: left;
+}
+.regargastitle{
+    float: left;
+}
+.cakeevolcenter{
+  width: 100%;
+  height: 130px;
+  background-color: #35A8E1;
+}
+.cakeevoldown{
+padding-top: 10px;
+  width: 100%;
+  height: 40px;
+  background-color: #35A8E1;
+}
+.cakeevoldowncenter{
+  width: 202px;
+  margin-left: 20px;
+  color: white;
+  font-size: 12px;
 }

@@ -1,7 +1,7 @@
 'use strict';
-angular.module('Services', [])
+angular.module('evolutivoSrv', [])
 
 
-.controller('evolutivoSrv', [function() {
+.service('evolutivoSrv', ['$scope', function($scope) {
 	console.log('zapallo');
 }]);
