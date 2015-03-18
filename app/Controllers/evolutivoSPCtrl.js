@@ -1,11 +1,11 @@
 'use strict';
-angular.module('evolutivoprepagoCrl', [])
+angular.module('evolutivoSPCtrl', [])
 
 
-.controller('evolutivoprepagoCtrl',  [function() {
+.controller('evolutivoSPCtrl',  [function() {
 
 setTimeout(function(){ 
-	$('#containerRRRRR').highcharts({
+	$('#containerSP').highcharts({
 	        chart: {
 	            type: 'column',
 	            height: 140,
@@ -62,6 +62,19 @@ setTimeout(function(){
 	            },
 	            title: {
 					text: ''
+				}
+	        },
+	        tooltip: {
+	            formatter: function () {
+		            return "<div 'class=tooltip'><div class='tooltipblock'><div class='tooltipfloatleft'>Var</div><div class='tooltipfloatright'>43.454</div></div> </div>";
+		        },
+		        backgroundColor: '#565656',
+		        borderColor: '#565656',
+		        borderRadius: 10,
+		        useHTML: true,
+		        style: {
+ 					color: '#FFFFFF',
+ 					fontSize: '9px'
 				}
 	        },
 	        plotOptions: {

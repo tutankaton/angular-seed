@@ -1,11 +1,11 @@
 'use strict';
-angular.module('evolutivoprepagoCrl', [])
+angular.module('evolutivoTBCrl', [])
 
 
-.controller('evolutivoprepagoCtrl',  [function() {
+.controller('evolutivoTBCrl',  [function() {
 
 setTimeout(function(){ 
-	$('#containerRRRRR').highcharts({
+	$('#containerTB').highcharts({
 	        chart: {
 	            type: 'column',
 	            height: 140,

@@ -11,6 +11,10 @@ angular.module('myApp', [
   'evolutivoSrv',
   'cakeCtrl',
   'cakerecargasCtrl',
+  'evolutivoTBCrl',
+  'evolutivoSPCtrl',
+  'cakeParqueTSCtrl',
+  'cakeParqueRCtrl',
   'cakeSrv'
 ]).
 config(['$routeProvider', function($routeProvider) {

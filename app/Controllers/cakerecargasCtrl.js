@@ -74,6 +74,76 @@ angular.module('cakerecargasCtrl', [])
 	            color: '#FFFFFF'
 	        }]
 	    });
+		$('#containerVV').highcharts({
+	    	chart: {
+	            height: 130,
+	            style: {
+		            fontFamily: 'Telefonica'
+		        },
+		        title: {
+					text: ''
+				},
+				backgroundColor: '#35A8E1',
+		        spacingTop: 0,
+		        spacingLeft: 10,
+		        spacingUp: 0,
+		        spacingButtom: 0,
+		        marginTop : 5,
+		        plotBackgroundColor : '#35A8E1'
+	        },
+	        title: {
+	        	text: ''
+	        },
+	        subtitle: {
+	            text: '',
+	        },
+	        xAxis: {
+
+
+	            categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
+	                'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+                lineWidth: 0,
+			   minorGridLineWidth: 0,
+			   lineColor: 'transparent',
+			   labels: {
+			       enabled: false
+			   },
+			   minorTickLength: 0,
+			   tickLength: 0
+	        },
+	        yAxis: {
+	        	gridLineWidth: 0,
+                minorGridLineWidth: 0,
+	        	labels: {
+	            	padding: 0,
+	            	enabled: false
+	            },
+	            title: {
+	                text: ''
+	            },
+	            plotLines: [{
+	                value: 0,
+	                width: 0,
+	                color: '#FFFFFF'
+	            }]
+	        },
+	        tooltip: {
+	        },
+	        exporting:{
+	        	enabled:false
+	        },
+	        credits: {
+		        enabled: false
+		    },
+	        legend: {
+	            enabled: false
+	        },
+	        series: [{
+	            name: 'Montos de recargas',
+	            data: [38500, 38510, 38500, 38550, 38575, 38625, 38600, 38620, 38625, 38630, 38635, 38610],
+	            color: '#FFFFFF'
+	        }]
+	    });
 	}, 100);
 
 }]);

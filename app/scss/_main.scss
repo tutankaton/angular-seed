@@ -14,7 +14,7 @@
 	color: #888888;
 padding: 15px;
 	background-color: #ECECEC;
-	  height: 1350px;
+	  position: absolute;
   
 }
 .right-top-bar{
@@ -40,8 +40,8 @@ padding: 15px;
   	background-color: #FFB516;
   	border-radius: 50%;
   	text-align: center;
-  	margin-left: 29px;
-  	margin-top: 22px;
+  	margin-left: 20px;
+  	margin-top: 15px;
   	font-size: 14px;
 }
 .notifications-count-icon{
@@ -52,14 +52,15 @@ padding: 15px;
   	background-color: #EC2C21;
   	border-radius: 50%;
   	text-align: center;
-  	margin-left: 29px;
-  	margin-top: 22px;
+  	margin-left: 20px;
+  	margin-top: 15px;
   	font-size: 14px;
 }
 
 .hamburger-top-bar{
-	width: 50px;
-  	height: 50px;
+margin: 10px;
+  width: 32px;
+  height: 32px;
   	float: left;
 	background-size: 100%;
 	background-image: url("icons/hamburguer.png");
@@ -70,22 +71,28 @@ padding: 15px;
   	font-size: 20px;
 }
 .mails-icon-top-bar{
-	width: 50px;
-  	height: 50px;
+margin-right: 10px;
+	margin-top: 10px;
+  width: 32px;
+  height: 32px;
   	float: right;
 	background-size: 100%;
 	background-image: url("icons/mails.png");
 }
 .notifications-icon-top-bar{
-	width: 50px;
-  	height: 50px;
+margin-right: 10px;
+	margin-top: 10px;
+  width: 32px;
+  height: 32px;
   	float: right;
 	background-size: 100%;
 	background-image: url("icons/notifications.png");
 }
 .maximize-icon-top-bar{
-	width: 50px;
-  	height: 50px;
+margin-right: 10px;
+	margin-top: 10px;
+  width: 32px;
+  height: 32px;
   	float: right;
 	background-size: 100%;
 	background-image: url("icons/maximize.png");
@@ -131,25 +138,25 @@ padding: 15px;
   	height: 50px;
 }
 .left-menu-icon1{
-	width: 50px;
-  	height: 50px;
+	  width: 32px;
+  height: 32px;
   	float: left;
-  	margin-left:5px;
+  	  margin-left: 26px;
 	background-size: 100%;
 	background-image: url("icons/appbar.acorn.png");
 }
 .left-menu-icon2{
-	width: 50px;
-  	height: 50px;
-  	margin-left:20px;
-  	margin-right:20px;
+	  width: 32px;
+  height: 32px;
+  	margin-left:26px;
+  	margin-right:25px;
   	float: left;
 	background-size: 100%;
 	background-image: url("icons/appbar.calendar.year.png");
 }
 .left-menu-icon3{
-	width: 50px;
-  	height: 50px;
+	  width: 32px;
+  height: 32px;
   	float: left;
 	background-size: 100%;
 	background-image: url("icons/appbar.city.png");
@@ -168,9 +175,10 @@ padding: 15px;
   	float: left;
 }
 .moviblock-icon{
-	float: right;
-  	width: 32px;
-  	height: 32px;
+	  float: right;
+  margin-right: 5px;
+  width: 24px;
+  height: 24px;
   	background-size: 100%;
   	background-image: url("icons/appbar.simcard.png");
 }
@@ -190,9 +198,10 @@ padding: 15px;
   	float: left;
 }
 .fijablock-icon{
-	float: right;
-  	width: 32px;
-  	height: 32px;
+	  float: right;
+  margin-right: 5px;
+  width: 24px;
+  height: 24px;
   	background-size: 100%;
   	background-image: url("icons/appbar.phone.png");
 }
@@ -320,12 +329,23 @@ height: 60px;
   height: 200px;
   margin: 8px;
 }
+.block4{
+  width: 500px;
+  float: left;
+  height: 150px;
+  margin: 8px;
+  }
+.block5{
+  width: 500px;
+  float: left;
+  height: 100px;
+  margin: 8px;
+}
 .block2{
   width: 242px;
   margin-right: 8px;
   float: left;
   height: 200px;
-  background-color: wheat;
 }
 .block3{
   width: 242px;
@@ -347,10 +367,12 @@ height: 60px;
    border-left : 1px solid rgba(200,200,200,0.8);
 }
 .evolutivolefticonaltas{
-  width: 32px;
-  height: 32px;
+    width: 24px;
+  height: 24px;
+  margin-top: 6px;
+    margin-left: 4px;
   background-size: 100%;
-  background-image: url("icons/appbar.group.add2.png");
+  background-image: url("icons/Iconos tablero-06.png");
   float: left;
 }
 .evolutivolefttitle{
@@ -458,11 +480,13 @@ margin-right: 3px;
     float: right;
 }
 .cakeinfologo{
-margin-left: 4px;
-  width: 24px;
-    height: 24px;
+margin-left: 8px;
+  margin-top: 2px;
+  margin-right: 4px;
+  width: 22px;
+  height: 22px;
     background-size: 100%;
-    background-image: url("icons/appbar.pie.png");
+    background-image: url("icons/Iconos tablero-18.png");
     float: left;
 }
 .cakegraph{
@@ -483,6 +507,7 @@ border-right: 1px solid rgba(200,200,200,0.8);
   height: 28px;
 }
 .cakeinfotext{
+  line-height: 28px;
     float: left;
 }
 .cakeinfodown{
@@ -512,14 +537,28 @@ line-height: 24px;
   background-color: #35A8E1;
 }
 .logorecargas{
+margin-left: 4px;
+  margin-top: 4px;
   width: 32px;
     height: 32px;
     background-size: 100%;
-    background-image: url("icons/appbar.alien.png");
+    background-image: url("icons/Iconos tablero-13.png");
+    float: left;
+}
+.logorecargasprimera{
+   margin-left: 6px;
+  margin-top: 6px;
+  width: 30px;
+  height: 30px;
+    background-size: 100%;
+    background-image: url("icons/Iconos tablero-19.png");
     float: left;
 }
 .regargastitle{
     float: left;
+      font-size: 14px;
+  margin-top: 4px;
+  margin-left: 4px;
 }
 .cakeevolcenter{
   width: 100%;
@@ -538,3 +577,130 @@ padding-top: 10px;
   color: white;
   font-size: 12px;
 }
+.evolutivolefticonTB{
+  width: 24px;
+  height: 24px;
+  margin-top: 6px;
+    margin-left: 4px;
+  background-size: 100%;
+  background-image: url("icons/Iconos tablero-07.png");
+  float: left;
+}
+.logoPR{
+  margin-left: 4px;
+  margin-top: 4px;
+  width: 32px;
+    height: 32px;
+    background-size: 100%;
+    background-image: url("icons/Iconos tablero-14.png");
+    float: left;
+}
+.logoPRP{
+  margin-left: 4px;
+  margin-top: 4px;
+  width: 32px;
+    height: 32px;
+    background-size: 100%;
+    background-image: url("icons/Iconos tablero-17.png");
+    float: left;
+}
+.evolutivolefticonSP{
+  width: 24px;
+  height: 24px;
+  margin-top: 6px;
+    margin-left: 4px;
+  background-size: 100%;
+  background-image: url("icons/Iconos tablero-08.png");
+  float: left;
+}
+.logoparqueTB{
+  margin-left: 4px;
+  margin-top: 4px;
+  width: 32px;
+    height: 32px;
+    background-size: 100%;
+    background-image: url("icons/Iconos tablero-15.png");
+    float: left;
+}
+.logoparquespeedy{
+  margin-left: 4px;
+  margin-top: 4px;
+  width: 32px;
+    height: 32px;
+    background-size: 100%;
+    background-image: url("icons/Iconos tablero-16.png");
+    float: left;
+}
+
+.slidegrande1{
+  width: 242px;
+  margin-right: 8px;
+  float: left;
+    height: 150px;
+  background-color: #009D62;
+}
+.slidegrande2{
+
+    width: 242px;
+  margin-left: 8px;
+  float: left;
+    height: 150px;
+  background-color: #009D62;
+}
+.slidechico1{
+  width: 242px;
+  margin-right: 8px;
+  float: left;
+  height: 100px;
+  //background-color: #456BA5;
+  background-color: #1471B7;
+}
+.slidechico2{
+    width: 242px;
+  margin-left: 8px;
+  float: left;
+  height: 100px;
+  //background-color: #456BA5;
+  background-color: #1471B7;
+}
+.slidegrandeleft{
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+.slidegranderight{
+    padding-left: 20px;
+  padding-top: 15px;
+  width: 50%;
+  margin-top: 20px;
+  height: 110px;
+  float: left;
+  color: white;
+  border-left: 1px solid rgba(200, 200, 200, 0.6);
+}
+.capilaridadicon{
+  width: 32px;
+    height: 32px;
+    background-size: 100%;
+    background-image: url("icons/Iconos tablero-20.png");
+    float: left;
+}
+.slidegrandetitle{
+  
+}
+.slidechicoleft{
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+.slidechicoright{
+  padding-left: 20px;
+  padding-top: 10px;
+  width: 50%;
+  margin-top: 15px;
+  height: 70px;
+  float: left;
+  color: white;
+  border-left: 1px solid rgba(200, 200, 200, 0.6);
+}
+  
